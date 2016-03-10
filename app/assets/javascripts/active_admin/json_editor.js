@@ -14,6 +14,7 @@
         }
       };
       editor = new JSONEditor(container, options,JSON.parse(textarea.val()));
+      editor.expandAll();
     });
   });
 })(window, jQuery);
